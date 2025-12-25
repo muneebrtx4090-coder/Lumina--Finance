@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { HashRouter } from 'react-router-dom';
-import { FinanceProvider, useFinance } from './context/FinanceContext';
+import { FinanceProvider, useFinance } from './context/financeContext';
 import { Onboarding } from './components/Onboarding';
 import { Dashboard } from './components/Dashboard';
 import { TransactionModal } from './components/TransactionModal';
